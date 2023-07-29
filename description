@@ -1,0 +1,63 @@
+Projet de page web permettant l'achat d'articles dans  divers magasin. 
+
+
+
+	L'idee derriere ce projet est de creer une plateforme semblable a AMAZON ou un ulisateur pourra une fois enregistrer et connecter faire ses achats directement sur le site web du magasin de son choix. 
+
+ !!!!!!! les noms de magasind devront etre fictifs pour resoecter le copyright
+	
+	
+	
+	Materiels necessaire 
+	
+	Ø Une connexion internet stable  uniquement pour se connecter au serveur et lancer les pages sinon le codages se sera hors reseau 
+	Ø Une interface de devellopement ECLIPSE INTERPRISE FOR JAVA EE  a l'ocurrence 
+	Ø Un Server Apache tomcat
+	Ø Pg admin  V4.6
+	- IP Adresse: 143.93.200.243 Port: 5435
+	- Username: user1
+	- Passwort: pgusers
+	Ø Un VPN 
+	Ø  savoir utiliser GitHUB ( pour partager du code. Il sera tres important ici de faire des commits constructifs pour eviter toutes pertes de temps ou de materiels 
+
+
+
+
+
+	1. Choisir le types d'articles ( Drogerie und körperpflege , Kleidung , Geräte und Elektonik , Auto und motorrad , Lebensmitttel und getränke )
+	2. Choisir le magasins  ( trouver les noms de magasins fictifs)
+	3. Creer les une base de donnes my sql sur pgadmin ( 
+	Nous aurons besoin ici de 7 tableaux  a savoir :                                                
+						
+	------> Utilisateur
+    
+	Chaque utilisateur doit avoir : 
+	Une adresse email, un mot de passe , un nom , un prenom  et aucun de ces champs de devra etre vide 
+	
+	------> Client 
+            chaque client doit avoir :
+            une adresse mail( clé primaire ) , un numero client , une adresse (RUE, numero de la rue , code postal , lieu ) , une date de naissance 
+!!Le tableau client doit etre connecter au tableau utlisateur par le biais de l'adresse mail 
+
+	-----> Commande 
+	Chaque commande doit avoir :
+	Un numero de commande , und  date 
+	
+	------->Articles 
+    
+	Chaque articles doit avoir :
+	Un identifiant (ID),une categorie, un genre ( food et non food ),un prix ( definie de facon,decimal )
+   Chaque articles doit avoir une referneces au tableau  categorie via catID
+ 
+	-------> Magasins 
+    
+	Chaque magasin doit avoir :
+	Un nom , une adresse (RUE, numero de la rue , code postal , lieu ) , un ID( au cas ou il existe une chaine de magsins qu'on puisse identifier excatement lequel est mis en avant)
+Les magasins auront selon leur attribut des references a differnts articles.
+                                                                             
+	--------> Categorie
+	Chaque tableau categorie doit avoir :
+	Un identifiant (catID), un genre , etre connecter au tableau 
+	-------->Pagnier 
+	Chaque pannier doit avoir :
+Un identifiant ,une date de creation , l'adresse mail du client auquel il fait refernces via l'adresse mail.
