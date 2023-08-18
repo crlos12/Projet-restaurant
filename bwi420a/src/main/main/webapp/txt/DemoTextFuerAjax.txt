@@ -1,0 +1,4 @@
+Dieser Text steht im selben WebContent. 
+wie die html-Seite. 
+obwohl es reichen wuerde. 
+wenn sie auf demselben Server liegen wuerde. 

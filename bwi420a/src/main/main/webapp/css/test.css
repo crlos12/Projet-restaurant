@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+body {
+	color: blue;
+}
+h2 {color: red;}
+h1, h3{
+		text-align: center;	
+}
+h1{
+	font-weight: bolder;
+	color: green;
+	font-size: 2em;
+	font-family: cursive, sans-serif;
+}
+h3{
+/*	text-align: left;  */
+	font-style: italic;
+	font-family: monospace, serif;
+	font-size: 30px;
+/*
+	color: RGB(255,255,255);
+	color: #800080;
+	color: RGBA(0,0,0,200);
+*/	
+	color: magenta;
+}
+div {
+	border: 1px solid blue;
+	border-radius: 5px;
+	padding: 15px;
+	margin: 5px;
+/*	background-color: RGB(0,255,0); */
+	width: 85%;
+}
+span {
+	font-weight: 900;
+	color: red;
+}
+div.ungerade{
+/*	background-color: RGB(0,255,0); */ 	
+}
+div.gerade{
+	background-color: RGB(255,0,0);
+}
+*#drei{
+	background-image: url("../img/R2D2.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+a:hover{
+	font-size: 2cm;
+}
+a:not(visited){
+	color: green;
+}
+a#hwglink:not(visited){
+	color: black;
+}

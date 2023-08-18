@@ -1,0 +1,26 @@
+body {
+/*	color: blue; */
+}
+img {
+	vertical-align: middle;
+}
+td{
+	width: 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 1px black solid;
+	padding: 10px;
+	border-radius: 10px;
+}
+table{
+	border-collapse: collapse;
+	border-radius: 5px;
+}
+td#caipibildzelle{
+	background-image: url("../img/caipi.jpg");
+	background-position: center;
+}
+td.mojitobild{
+	background-image: url("../img/mojito.jpg");
+	background-position: center;
+}

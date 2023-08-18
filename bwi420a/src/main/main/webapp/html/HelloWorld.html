@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hallo Welt</title>
+</head>
+<body>
+<p>Das ist ein Text-Absatz (Paragraph)</p>
+<h1>&Uuml;berschr&uuml;ft &nbsp;&nbsp;1</h1>
+<h2>Ueberschrift 2&copy;&#169;&#x00A9;</h2>
+<h3>Ueberschrift 3&amp;</h3>
+<h4>Ueberschrift 4</h4>
+<h5>Ueberschrift 5</h5>
+<h6>Ueberschrift 6</h6>
+<!-- <h7>Ueberschrift 7</h7> h7 gibt's nicht -->
+<p>Jetzt kommt <b>Mathe</b>: a &lt; b</p>
+<p>Jetzt kommen Zeilenumbr&uuml;che: 
+<br>
+<br>
+<br>
+und fertig</p>
+<input>
+<!-- leeres Tag --><input></input>
+<!--  abgekürzt --><input />
+<!-- leeres Tag / leeres Element mit 
+	Attributen / Eigenschaften -->
+<input type="text" name="myInput" value=""></input>
+<!-- abgekürzt -->
+<input type="text" name="myInput" value="" />
+<br>
+Hier geht's zur <a title="Link zur HS" href="https://www.hwg-lu.de/">HWG Ludwigshafen</a>.
+<br>
+<img src="../img/DonaldDuck.jpg" 
+	alt="Hier sollte ein Bild von Donald stehen"
+	title="Mein Freund Donald"
+	width="100" height="50"
+/>
+<br>
+hier ein Link mit Bild zur HS:
+<a href="https://www.hwg-lu.de/service/it-service-center/guides">
+<img src="../img/HWGLU_logo.png" 
+	title="Mein Freund Donald"
+	width="150"
+/></a>
+<ul>
+	<li>Donald Duck</li>
+	<li>Micky Maus</li>
+	<li><img src="../img/mojito.jpg" width="50" /></li>
+</ul>
+<ol>
+	<li>eins</li>
+	<li>zwei</li>
+	<li>drei</li>
+</ol>
+
+<table border="1">
+	<tr>
+		<th>a</th>
+		<th>x</th>
+		<th colspan="2">7</th>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td><img src="../img/caipi.jpg" width="50" /></td>
+		<td>u</td>
+		<td rowspan="2">1</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>d</td>
+		<td>x</td>
+	</tr>
+</table>
+<br>
+<form action="./LoginAppl.jsp" method="get">
+	<table>
+		<tr>
+			<td>Nickname:</td>
+			<td>
+				<input type="text" name="userid" value="" 
+					placeholder="geben Sie eine userid ein"
+			
+			
+			
+				/>
+			</td>
+		</tr>
+		<tr>
+			<td>Passwort:</td>
+			<td><input type="password" name="password" value="" /></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="submit" name="btnLogin" value="Anmelden" /></td>
+		</tr>
+	</table>
+</form>
+
+
+
+</body>
+</html>

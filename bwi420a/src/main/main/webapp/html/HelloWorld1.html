@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hallo Welt</title>
+</head>
+<body>
+<form action="./LoginAppl.jsp" method="get">
+	<table>
+		<tr>
+			<td>Nickname:</td>
+			<td>
+				<input type="text" name="userid" value="123" 
+					placeholder="geben Sie eine userid ein"
+					size="30" maxlength="16" required="required"
+				/>
+			</td>
+		</tr>
+		<tr>
+			<td>Passwort:</td>
+			<td><input type="password" name="password" value="" /></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<input type="submit" name="btnLogin" value="Anmelden" />
+				<input type="reset" name="btnReset" value="Reset" />
+				<input type="button" name="btnButton" value="Button" />
+			</td>
+		</tr>
+	</table>
+	Number: <input type="number" name="myNumber" value="" /><br>
+	E-Mail: <input type="email" name="myEmail" value="" /><br>
+	Range: <input type="range" min="0" max="77" name="myRange" value="" /><br>
+	<br>
+	<label><input type="checkbox" name="creditcard" value="1" />Visa</label><br>
+	<label><input type="checkbox" name="creditcard" value="2" checked />Master</label><br>
+	<label><input type="checkbox" name="creditcard" value="3" />ec</label><br>
+	<br>
+	<label><input type="radio" name="geschlecht" value="m" />m&auml;nnlich</label><br>
+	<label><input type="radio" name="geschlecht" value="w" checked />weiblich</label><br>
+	<label><input type="radio" name="geschlecht" value="d" />divers</label><br>
+	<br>
+	<textarea name="myText">
+	</textarea>
+
+
+		
+</form>
+
+
+
+</body>
+</html>

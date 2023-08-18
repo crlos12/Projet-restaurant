@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Download your Traumpartner</title>
+<link type="text/css" rel="stylesheet" href="../css/traumpartner.css" />
+</head>
+<body>
+<h1>Traumpartner Now!</h1>
+<form action="../jsp/dummyApp.jsp" method="get">
+<table>
+	<tr>
+		<td>Mitglied werden</td>
+		<td>Login f&uuml;r Mitglieder</td>
+	</tr>
+	<tr>
+		<td>Jetzt kostenlos registrieren</td>
+		<td>
+			<table>
+				<tr>
+					<td>Pseudonym:</td>
+					<td><input type="text" name="userid" value="" /></td>
+				</tr>
+				<tr>
+					<td>Passwort:</td>
+					<td><input type="password" name="password" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">Wen oder was suchen Sie?</td>
+	</tr>
+	<tr>
+		<td>
+			<h5>Was darf's sein?</h5>
+			<label><input type="checkbox" name="art" value="m" />&nbsp;M&auml;nner<br></label>
+			<label><input type="checkbox" name="art" value="f" />&nbsp;Frauen<br></label>
+			<label><input type="checkbox" name="art" value="v" />&nbsp;Vampire<br></label>
+			<label><input type="checkbox" name="art" value="z" checked />&nbsp;Zombies<br></label>
+			<label><input type="checkbox" name="art" value="y" />&nbsp;Yetis<br></label>
+			<br>
+			<label><input type="radio" name="foto" value="mit" />nur mit Foto<br></label>
+			<label><input type="radio" name="foto" value="ohne" />nur ohne Foto<br></label>
+			<label><input type="radio" name="foto" value="4711" checked />is mir egal<br></label>
+		
+		</td>
+		<td>
+			<h5>Alter?</h5>
+			<select name="alter" multiple size="5">
+				<option value="20">0-20</option>			
+				<option value="30">20-30</option>			
+				<option value="40">30-40</option>			
+				<option value="60">40-60</option>			
+				<option value="1000">60-1000</option>			
+			</select>
+			<h5>Irgendwelche Besonderheiten?</h5>
+			<input type="submit" name="suchen" value="Suche starten" />
+		
+		
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
