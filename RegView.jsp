@@ -11,6 +11,7 @@
 <jsp:useBean id="myGui" class="de.hwg_lu.bwi420Beans.GUIBean" scope="session" />
 
 <jsp:getProperty name="myGui" property="headlineHtml" />
+
 <!-- 
 <table>
 	<tr>
